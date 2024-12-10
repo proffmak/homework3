@@ -22,9 +22,9 @@
       <nav class="container main-nav">
         <a href="#" class="logo"><span class="web">Web</span>studio</a>
         <ul class="site-nav">
-          <li><a href="#" class="linkcurrent">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="site-navlink" href="#" class="linkcurrent">Студия</a></li>
+          <li><a class="site-navlink" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="site-navlink" href="#">Контакти</a></li>
         </ul>
         <ul class="adres">
           <li>
@@ -379,5 +379,44 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <h4>Оставьте свои данные, мы вам перезвоним</h4>
+        <form>
+          <label class="name-label">
+            Имя
+            <input
+             type="username" name="pwd" minlength="5" maxlength="12" autofocus />
+             <svg class="input-icon"> 
+              <use href="./images/symbol-defs.svg#icon-person-form"></use>
+            </svg>
+          </label>
+          <label class="name-label">
+            Телефон
+            <input 
+            type="tel" name="phone" />
+            <svg class="input-icon"> 
+              <use href="./images/symbol-defs.svg#icon-phone-form"></use>
+            </svg>
+          </label>
+          <label class="name-label">
+            Почта
+            <input 
+            type="email" name="email" />
+            <svg class="input-icon"> 
+              <use href="./images/symbol-defs.svg#icon-email-form"></use>
+            </svg>
+          </label>
+          <label>
+            Комментарий
+            <textarea name="feedback" rows="5" placeholder="Введите текст..."></textarea>
+          </label>
+          <label class="checkbox">
+            <input class="checkbox" type="checkbox" name="consent" value="consent">Соглашаюсь с рассылкой и принимаю Условия договора
+          </label>
+          <button type="button" class="buttonprimary" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
