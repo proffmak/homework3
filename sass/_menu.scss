@@ -1,0 +1,19 @@
+.sectionmenu {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .menu {
+    padding-bottom: 34px;
+  }
+  
+  .menu-button {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .menu-button li + li {
+    margin-left: 5px;
+    height: 38px;
+  }

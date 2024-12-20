@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--background-color);
+    padding: top 60px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer a {
+    color: var(--footer-color);
+  }
+  
+  .footer p {
+    color: var(--footer-color);
+  }
+
+ 
+  
+  .joinus {
+    display: flex;
+    max-width: 206px;
+    height: 44px;
+    justify-content: center;
+    margin: 0;
+  }

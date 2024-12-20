@@ -1,0 +1,17 @@
+.team-list {
+    display: flex;
+    height: 428px;
+  }
+
+  .team-list-man {
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  .team-list-man:nth-child(1) {
+    margin: 0;
+  }
+  
+  .team-wrap {
+    padding: 30px 32px;
+  }

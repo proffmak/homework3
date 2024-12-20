@@ -1,0 +1,7 @@
+.work {
+    display: flex;
+  }
+  
+  .work li + li {
+    padding-left: 30px;
+  }

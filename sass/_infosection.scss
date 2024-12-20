@@ -1,0 +1,36 @@
+.info {
+    display: flex;
+    height: 251px;
+    text-align: center;
+  }
+
+  .infotex:not(:first-child) {
+    margin-left: 30px;
+  }
+  
+  .infotex::before {
+    content: "";
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+  }
+
+  .antena:before {
+    background-image: url(../images/antenna\ 1.png);
+  }
+  
+  .clock:before {
+    background-image: url(../images/clock\ 1.png);
+  }
+  
+  .diagram:before {
+    background-image: url(../images/diagram1.png);
+  }
+  
+  .astronaut:before {
+    background-image: url(../images/astronaut.png);
+  }
+  
